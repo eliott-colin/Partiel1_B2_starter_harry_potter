@@ -10,7 +10,7 @@ async function loadData() {
         let characters = document.querySelector(".characters")
         let newDiv = document.createElement("div")
         newDiv.innerHTML = `<div>
-                <a href="details.html">
+                <a href="details.html?character=${encodeURIComponent(element.name)}">
                   <img src="${element.image}" alt="${element.name}" class="${element.house}"/>
                 </a>
                 <p>${element.name}</p>
@@ -42,7 +42,7 @@ async function house() {
             const imageUrl = element.image || "images\characters\troll.jpg";
             newDiv.innerHTML = `
                 <div>
-                    <a href="details.html">
+                    <a href="details.html?character=${encodeURIComponent(element.name)}">
                       <img src="${element.image ? element.image : "./images/characters/troll.jpg"}" alt="${element.name}" class="${element.house}" />
                     </a>
                     <p>${element.name}</p>
@@ -64,7 +64,7 @@ async function house() {
             const imageUrl = element.image || "images\characters\troll.jpg";
             newDiv.innerHTML = `
                 <div>
-                    <a href="details.html">
+                    <a href="details.html?character=${encodeURIComponent(element.name)}">
                       <img src="${element.image ? element.image : "./images/characters/troll.jpg"}" alt="${element.name}" class="${element.house}" />
                     </a>
                     <p>${element.name}</p>
@@ -85,7 +85,7 @@ async function house() {
             const imageUrl = element.image || "images\characters\troll.jpg";
             newDiv.innerHTML = `
                 <div>
-                    <a href="details.html">
+                    <a href="details.html?character=${encodeURIComponent(element.name)}">
                       <img src="${element.image ? element.image : "./images/characters/troll.jpg"}" alt="${element.name}" class="${element.house}" />
                     </a>
                     <p>${element.name}</p>
@@ -106,7 +106,7 @@ async function house() {
             const imageUrl = element.image || "images\characters\troll.jpg";
             newDiv.innerHTML = `
                 <div>
-                    <a href="details.html">
+                    <a href="details.html?character=${encodeURIComponent(element.name)}">
                       <img src="${element.image ? element.image : "./images/characters/troll.jpg"}" alt="${element.name}" class="${element.house}" />
                     </a>
                     <p>${element.name}</p>
@@ -122,7 +122,11 @@ async function house() {
 
 }
 
-house();
+
+
+
+
+
 
 
 
