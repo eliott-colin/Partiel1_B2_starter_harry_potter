@@ -142,16 +142,16 @@ footer p {
   object-position: top;
 }
 
-.characters .green:hover {
+.characters .Slytherin:hover {
   border: 8px solid var(--green)
 }
-.characters .blue:hover {
+.characters .Ravenclaw:hover {
   border: 8px solid var(--blue)
 }
-.characters .red:hover {
+.characters .Gryffindor:hover {
   border: 8px solid var(--red)
 }
-.characters .yellow:hover {
+.characters .Hufflepuff:hover {
   border: 8px solid var(--yellow)
 }
 .characters p {
