@@ -141,6 +141,19 @@ footer p {
   object-fit: cover;
   object-position: top;
 }
+
+.characters .green:hover {
+  border: 8px solid var(--green)
+}
+.characters .blue:hover {
+  border: 8px solid var(--blue)
+}
+.characters .red:hover {
+  border: 8px solid var(--red)
+}
+.characters .yellow:hover {
+  border: 8px solid var(--yellow)
+}
 .characters p {
   text-align: center;
   font-weight: bold;
